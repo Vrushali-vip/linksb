@@ -14,7 +14,7 @@ body {
     top: 0;
     left: 0;
     z-index: 1;
-        background: #86BE40;
+    background: #86BE40;
     /* Green gradient background */
 }
 
@@ -49,6 +49,7 @@ body {
     transform-style: preserve-3d;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .main-content {
     z-index: 3;
     position: relative;
@@ -291,11 +292,12 @@ body {
 } */
 /* Email Icon */
 .link-item[href^="mailto:"] .icon-container {
-    background: linear-gradient(135deg, #FF0000, #B22222) !important;
+    background: #86BE40 !important;
 }
+
 /* Phone Call Icon */
 .link-item[href*="tel:+919321711128"] .icon-container {
-    background: linear-gradient(135deg, #FF0000, #B22222);
+    background: #86BE40;
 }
 
 /* Landline Icon */
@@ -305,7 +307,7 @@ body {
 
 /* LinkedIn Icon */
 .link-item[href*="linkedin"] .icon-container {
-    background: linear-gradient(135deg, #FF0000, #B22222);
+    background: #86BE40;
 }
 
 /* WhatsApp Icon */
@@ -318,8 +320,9 @@ body {
 }
 
 .link-item[href*="brochure"] .icon-container {
-    background: linear-gradient(135deg, #FF0000, #B22222);
+    background: #86BE40;
 }
+
 .link-item .icon {
     font-size: 1.2rem;
     color: white;
@@ -500,7 +503,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    z-index: 9999; /* Very high z-index to ensure it stays on top */
+    z-index: 9999;
+    /* Very high z-index to ensure it stays on top */
 }
 
 button {
@@ -509,6 +513,7 @@ button {
     background: none;
     box-shadow: none;
 }
+
 button:focus {
     outline: none;
 }
@@ -552,11 +557,11 @@ button:focus {
     transform: scale(1.1);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
-  
-  
+
+
 .logo-small {
-    width: 250px;  
-    height: auto;  
+    width: 250px;
+    height: auto;
 }
 
 .locate-title {
@@ -693,13 +698,14 @@ button:focus {
         right: 15px;
         gap: 12px;
     }
-    
+
     .float-btn {
         width: 48px;
         height: 48px;
         font-size: 20px;
     }
-    .locate-title{
+
+    .locate-title {
         color: black;
         margin-bottom: none;
         margin-top: 20px;
